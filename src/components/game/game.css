@@ -1,0 +1,11 @@
+.game {
+  display: inline-block;
+}
+
+.game.gameover .square {
+  background-color: rgba(153, 153, 153, 0.25);
+}
+
+button.replay {
+  width: 100%;
+}

@@ -1,0 +1,14 @@
+.board {
+  border: 1px solid #999;
+  margin: 20px 0;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.board.winner .square {
+  background-color: rgba(153, 153, 153, 0.25);
+}
